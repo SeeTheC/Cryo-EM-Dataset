@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="1050" version="1.9.6">
+    <admin>
+        <lastUpdate>2011-05-26</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2003-02-04</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2003-07-09</headerReleaseDate>
+        <mapReleaseDate>2003-07-09</mapReleaseDate>
+        <title>The cyanide degrading nitrilase from Pseudomonas stutzeri AK61 is a two-fold symmetric, 14-subunit spiral.</title>
+        <authors>Sewell BT, Berman MN, Meyers PR, Jandhyala D, Benedik MJ</authors>
+        <keywords/>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Sewell BT, Berman MN, Meyers PR, Jandhyala D, Benedik MJ</authors>
+                <articleTitle>The cyanide degrading nitrilase from Pseudomonas stutzeri AK61 is a two-fold symmetric, 14-subunit spiral.</articleTitle>
+                <journal>STRUCTURE</journal>
+                <volume>11</volume>
+                <firstPage>1413</firstPage>
+                <lastPage>1422</lastPage>
+                <year>2003</year>
+                <externalReference type="pubmed">14604531</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="2001" type="map">emd_1050.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>80</numColumns>
+            <numRows>80</numRows>
+            <numSections>80</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>79</limitCol>
+            <limitRow>79</limitRow>
+            <limitSec>79</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>80</spacingCol>
+            <spacingRow>80</spacingRow>
+            <spacingSec>80</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">320</cellA>
+            <cellB units="A">320</cellB>
+            <cellC units="A">320</cellC>
+            <cellAlpha units="degrees">90</cellAlpha>
+            <cellBeta units="degrees">90</cellBeta>
+            <cellGamma units="degrees">90</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.329862</minimum>
+            <maximum>0.6125</maximum>
+            <average>-0.00721576</average>
+            <std>0.0641706</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-1050::::</details>
+        <pixelSpacing>
+            <pixelX units="A">4</pixelX>
+            <pixelY units="A">4</pixelY>
+            <pixelZ units="A">4</pixelZ>
+        </pixelSpacing>
+        <contourLevel>0.153</contourLevel>
+        <annotationDetails/>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <name>Cyanide dihydratase from Pseudomonas stutzeri</name>
+        <compDegree>14 identical subunits</compDegree>
+        <numComponents>1</numComponents>
+        <molWtExp units="MDa">0.5</molWtExp>
+        <molWtTheo units="MDa">0.532</molWtTheo>
+        <molWtMethod>gel filtration chromatography, sequencing and
+      counting subunits.</molWtMethod>
+        <details>The sample eluted as a single symmetric peak on       gel
+      filtration chromatography. Three bands were seen on       SDS-PAGE
+      presumably indicating some proteolysis</details>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>cyanide dihydratase</sciName>
+                <synName>nitrilase</synName>
+                <molWtTheo units="MDa">0.038</molWtTheo>
+                <molWtExp units="MDa">0.038</molWtExp>
+                <details>The protein elutes as a sharp symmetric peak on
+ Sephacryl 300 HR chromatography and particles appear
+ homogeneously sized by negative stain EM</details>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="316">Pseudomonas stutzeri</sciSpeciesName>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>14mer</oligomericDetails>
+                    <numCopies>14</numCopies>
+                    <sciSpeciesStrain>AK61</sciSpeciesStrain>
+                    <externalReferences>
+                        <refInterpro>IPR000132</refInterpro>
+                        <refGo>GO:0000257</refGo>
+                    </externalReferences>
+                    <natSource>
+                        <cell>bacteria</cell>
+                        <organelle>bacteria</organelle>
+                        <cellLocation>cytoplasm</cellLocation>
+                    </natSource>
+                    <engSource>
+                        <vector>pET26b</vector>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>NONE</cryogenName>
+        </vitrification>
+        <imaging>
+            <microscope>JEOL 2000EXII</microscope>
+            <specimenHolder>Eucentric</specimenHolder>
+            <specimenHolderModel>OTHER</specimenHolderModel>
+            <date>2001-03-01</date>
+            <acceleratingVoltage units="kV">120</acceleratingVoltage>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalCs units="mm">5.6</nominalCs>
+            <nominalDefocusMin units="nm">100</nominalDefocusMin>
+            <nominalDefocusMax units="nm">700</nominalDefocusMax>
+            <nominalMagnification>50000</nominalMagnification>
+            <electronSource>TUNGSTEN HAIRPIN</electronSource>
+            <detector>KODAK SO-163 FILM</detector>
+            <details>Additional details about microscope model:JEOL 1200EXII</details>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>15</numDigitalImages>
+            <samplingSize units="microns">20</samplingSize>
+            <quantBitNumber>16</quantBitNumber>
+        </imageAcquisition>
+        <fitting>
+            <refProtocol>rigid body</refProtocol>
+            <software>CoLoRes, SITUS</software>
+            <details>The map was fitted using a model generated from the Nit structure (1ems in PDB). Magification was refined by dtermining the CoLoRes correlation coefficient as a function of scale factor. Locations of the 14 subunits were verified by vizualization with O. Fitted co-ordinates are available on request.Initially no symmetry was assumed but a two fold axis became apparent after 47 cycles. The orientation of the twofold axis was determined and the model was rotated so that the twofold axis was parallel to the x-axis. In 17 subsequent cycles of refinement the twofold symmetry was imposed by rotating about the x-axis and adding the structure thus formed to the original.</details>
+            <pdbEntryIdList/>
+        </fitting>
+        <specimenPreparation>
+            <specimenConc units="mg/ml">0.3</specimenConc>
+            <staining>A carbon-coated copper grid was placed on a       droplet
+      of       this enzyme preparation for 10 minutes,       blotted,
+      and then stained       with 2% uranyl acetate for 3       minutes.
+      The grid was then blotted       and air-dried.</staining>
+            <specimenSupportDetails>carbon film on 200 mesh copper grid</specimenSupportDetails>
+            <specimenState>particle</specimenState>
+            <buffer>
+                <details>10 mM triethanolamine, 50 mM NaCl</details>
+                <ph>8.0</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <algorithm>iterative reconstruction after multi reference alignment</algorithm>
+            <software>SPIDER</software>
+            <ctfCorrection>none</ctfCorrection>
+            <resolutionByAuthor>25</resolutionByAuthor>
+            <resolutionMethod>FSC 0.5</resolutionMethod>
+            <eulerAnglesDetails>generated at 15 degree intervals by the SPIDER
+      VO EA function.</eulerAnglesDetails>
+            <details>Initially no symmetry was assumed but a two fold axis
+        became apparent after 47 cycles. The orientation of the twofold
+        axis was determined and the model was rotated so that
+        the twofold axis was parallel to the x-axis. In 17 subsequent cycles
+       of refinement the twofold symmetry was imposed by rotating about
+       the x-axis and adding the structure thus formed to the original.</details>
+        </reconstruction>
+        <singleParticle>
+            <numClassAverages>84</numClassAverages>
+            <numProjections>7008</numProjections>
+            <details>particles were picked manually</details>
+            <appliedSymmetry>C2</appliedSymmetry>
+        </singleParticle>
+    </processing>
+</emdEntry>

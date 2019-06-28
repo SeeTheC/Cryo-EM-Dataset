@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="1235" version="1.9.6">
+    <admin>
+        <lastUpdate>2011-05-26</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2006-04-06</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2006-07-06</headerReleaseDate>
+        <mapReleaseDate>2006-08-04</mapReleaseDate>
+        <title>In situ structure of the complete Treponema primitia flagellar motor.</title>
+        <authors>Murphy GE, Leadbetter JR, Jensen GJ</authors>
+        <keywords/>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Murphy GE, Leadbetter JR, Jensen GJ</authors>
+                <articleTitle>In situ structure of the complete Treponema primitia flagellar motor.</articleTitle>
+                <journal>NATURE</journal>
+                <volume>442</volume>
+                <firstPage>1062</firstPage>
+                <lastPage>1064</lastPage>
+                <year>2006</year>
+                <externalReference type="pubmed">16885937</externalReference>
+                <externalReference type="doi">doi:10.1038/nature05015</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="344" type="map">emd_1235.map.gz</file>
+        <dataType>Image stored as Integer*2</dataType>
+        <dimensions>
+            <numColumns>56</numColumns>
+            <numRows>56</numRows>
+            <numSections>56</numSections>
+        </dimensions>
+        <origin>
+            <originCol>-28</originCol>
+            <originRow>-28</originRow>
+            <originSec>-28</originSec>
+        </origin>
+        <limit>
+            <limitCol>27</limitCol>
+            <limitRow>27</limitRow>
+            <limitSec>27</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>56</spacingCol>
+            <spacingRow>56</spacingRow>
+            <spacingSec>56</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">1097.6</cellA>
+            <cellB units="A">1097.6</cellB>
+            <cellC units="A">1097.6</cellC>
+            <cellAlpha units="degrees">90</cellAlpha>
+            <cellBeta units="degrees">90</cellBeta>
+            <cellGamma units="degrees">90</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-39</minimum>
+            <maximum>61</maximum>
+            <average>-0.0815188</average>
+            <std>6.92315</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-1235::::</details>
+        <pixelSpacing>
+            <pixelX units="A">19.6</pixelX>
+            <pixelY units="A">19.6</pixelY>
+            <pixelZ units="A">19.6</pixelZ>
+        </pixelSpacing>
+        <contourLevel>11</contourLevel>
+        <annotationDetails>See header.  As submitted, low values
+      correspond       to protein density, and it should be
+      contoured at 1.3 standard deviations.</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <name>Flagellar Motor</name>
+        <numComponents>1</numComponents>
+        <details>The flagellar motor is built from more than 20
+      proteins,       some of which are unknown.  The stoichiometry
+      is not certain.</details>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>cellular-component</entry>
+                <sciName>Flagellar Motor</sciName>
+                <synName>Basal Body</synName>
+                <details>tens of megadaltons; T. primitia is a spirochete with a periplasmic
+ flagella. It never exits the outer membrane.</details>
+                <cellular-component>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <sciSpeciesName ncbiTaxId="88058">Treponema primitia</sciSpeciesName>
+                    <externalReferences/>
+                    <natSource>
+                        <cell>Treponema primitia strain ZAS-2</cell>
+                        <cellLocation>Plasma membrane</cellLocation>
+                    </natSource>
+                    <engSource/>
+                </cellular-component>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>ETHANE</cryogenName>
+            <humidity>100</humidity>
+            <temperature units="Kelvin">22</temperature>
+            <instrument>FEI VITROBOT</instrument>
+            <method>Typically a 2 second blot, -2 offset and a 1 s drain.</method>
+            <details>Vitrification instrument: Vitrobot</details>
+        </vitrification>
+        <imaging>
+            <microscope>FEI TECNAI F30</microscope>
+            <specimenHolder>FEI Polara</specimenHolder>
+            <specimenHolderModel>GATAN HELIUM</specimenHolderModel>
+            <date>2005-08-00</date>
+            <acceleratingVoltage units="kV">300</acceleratingVoltage>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalCs units="mm">2</nominalCs>
+            <electronBeamTiltParams>0</electronBeamTiltParams>
+            <astigmatism>obj lens astigmatism corrected at working magnification</astigmatism>
+            <tiltAngleMin units="degrees">63</tiltAngleMin>
+            <tiltAngleMax units="degrees">63</tiltAngleMax>
+            <nominalMagnification>22500</nominalMagnification>
+            <calibratedMagnification>30600</calibratedMagnification>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">110</electronDose>
+            <energyFilter>GIF 3000</energyFilter>
+            <energyWindow units="eV">0-20</energyWindow>
+            <temperature units="Kelvin">82</temperature>
+            <temperatureMin units="Kelvin">82</temperatureMin>
+            <temperatureMax units="Kelvin">82</temperatureMax>
+            <detector>GATAN ULTRASCAN 1000 (2k x 2k)</detector>
+        </imaging>
+        <imageAcquisition/>
+        <fitting/>
+        <specimenPreparation>
+            <specimenSupportDetails>200</specimenSupportDetails>
+            <buffer>
+                <details>T. primitia cells were frozen in their 4YACo
+          growth       media       (Leadbetter et al., Science 1999)</details>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>subtomogramAveraging</method>
+        <reconstruction>
+            <algorithm>weighted back projection</algorithm>
+            <software>IMOD</software>
+            <ctfCorrection>none</ctfCorrection>
+            <resolutionByAuthor>70</resolutionByAuthor>
+            <resolutionMethod>FSC 0.5</resolutionMethod>
+            <details>Final map is the C16 symmetrized average calculated from
+        20       individual 3D motor particles.</details>
+        </reconstruction>
+        <subtomogramAveraging>
+            <details>Motor particles were picked from 15 different tomograms. The above parameters are the typical values. Average number of tilts used in the 3D reconstructions: 125. Average tomographic tilt angle increment: 1.</details>
+        </subtomogramAveraging>
+    </processing>
+</emdEntry>
