@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="2207" version="1.9.6">
+    <admin>
+        <lastUpdate>2013-01-09</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2012-09-19</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2012-10-10</headerReleaseDate>
+        <mapReleaseDate>2012-12-05</mapReleaseDate>
+        <title>Negative stained electron microscopy reconstruction of the viral polymerase of influenza A virus ribonucleoprotein isolated from virions. Conformation 1.</title>
+        <authors>Arranz R, Coloma R, Chichon FJ, Conesa JJ, Carrascosa JL, Valpuesta JM, Ortin J, Martin-Benito J</authors>
+        <keywords>Influenza, ribonucleoprotein, polymerase, RNA polymerase, nucleoprotein, negative stained electron microscopy, RNA.</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Arranz R, Coloma R, Chichon FJ, Conesa JJ, Carrascosa JL, Valpuesta JM, Ortin J, Martin-Benito J</authors>
+                <articleTitle>The structure of native influenza virion ribonucleoproteins.</articleTitle>
+                <journal>SCIENCE</journal>
+                <volume>338</volume>
+                <firstPage>1634</firstPage>
+                <lastPage>1637</lastPage>
+                <year>2012</year>
+                <externalReference type="pubmed">23180776</externalReference>
+                <externalReference type="doi">doi:10.1126/science.1228172</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="1025" type="map">emd_2207.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>64</numColumns>
+            <numRows>64</numRows>
+            <numSections>64</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>63</limitCol>
+            <limitRow>63</limitRow>
+            <limitSec>63</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>64</spacingCol>
+            <spacingRow>64</spacingRow>
+            <spacingSec>64</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">271.36</cellA>
+            <cellB units="A">271.36</cellB>
+            <cellC units="A">271.36</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.04471319</minimum>
+            <maximum>0.07969180</maximum>
+            <average>0.00070886</average>
+            <std>0.01256026</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-2207::::</details>
+        <pixelSpacing>
+            <pixelX units="A">4.24</pixelX>
+            <pixelY units="A">4.24</pixelY>
+            <pixelZ units="A">4.24</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.023</contourLevel>
+        <annotationDetails>Influenza virus polymerase. Conformation 1.</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>5</numComponents>
+        <name>Native influenza A virus ribonucleoprotein (STRAIN A/WSN/33, H1N1). Polymerase end. Conformation 1.</name>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>PB1</sciName>
+                <synName>PB1</synName>
+                <molWtTheo units="MDa">0.086</molWtTheo>
+                <molWtExp units="MDa">0.086</molWtExp>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="11320">Influenza A virus</sciSpeciesName>
+                    <numCopies>1</numCopies>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <sciSpeciesStrain>A/WSN/33 (H1N1)</sciSpeciesStrain>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="2">
+                <entry>protein</entry>
+                <sciName>PA</sciName>
+                <synName>PA</synName>
+                <molWtTheo units="MDa">0.083</molWtTheo>
+                <molWtExp units="MDa">0.083</molWtExp>
+                <protein>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <sciSpeciesStrain>A/WSN/33 (H1N1)</sciSpeciesStrain>
+                    <sciSpeciesName ncbiTaxId="11320">Influenza A virus</sciSpeciesName>
+                    <numCopies>1</numCopies>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="3">
+                <entry>protein</entry>
+                <sciName>PB2</sciName>
+                <synName>PB2</synName>
+                <molWtTheo units="MDa">0.086</molWtTheo>
+                <molWtExp units="MDa">0.086</molWtExp>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="11320">Influenza A virus</sciSpeciesName>
+                    <numCopies>1</numCopies>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <sciSpeciesStrain>A/WSN/33 (H1N1)</sciSpeciesStrain>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="4">
+                <entry>protein</entry>
+                <sciName>nucleoprotein</sciName>
+                <synName>nucleoprotein</synName>
+                <molWtTheo units="MDa">0.056</molWtTheo>
+                <protein>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <sciSpeciesStrain>A/WSN/33 (H1N1)</sciSpeciesStrain>
+                    <sciSpeciesName ncbiTaxId="11320">Influenza A virus</sciSpeciesName>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="5">
+                <entry>nucleic-acid</entry>
+                <sciName>RNA</sciName>
+                <synName>RNA</synName>
+                <nucleic-acid>
+                    <sciSpeciesName ncbiTaxId="11320">Influenza A virus</sciSpeciesName>
+                    <syntheticFlag>false</syntheticFlag>
+                    <class>RNA</class>
+                    <structure>SINGLE STRANDED</structure>
+                </nucleic-acid>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>NONE</cryogenName>
+            <instrument>NONE</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">1500</nominalDefocusMin>
+            <nominalDefocusMax units="nm">3500</nominalDefocusMax>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>FEI EAGLE (4k x 4k)</detector>
+            <nominalCs units="mm">2.26</nominalCs>
+            <microscope>FEI TECNAI F20</microscope>
+            <date>01-MAY-2011</date>
+            <specimenHolderModel>OTHER</specimenHolderModel>
+            <acceleratingVoltage units="kV">200</acceleratingVoltage>
+            <nominalMagnification>65000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>1024</numDigitalImages>
+            <samplingSize units="microns">15</samplingSize>
+            <quantBitNumber>16</quantBitNumber>
+            <details>downsampling factor 2.</details>
+        </imageAcquisition>
+        <fitting/>
+        <specimenPreparation>
+            <staining>Samples were applied to one side of a carbon coated Cu/Rh grid and stained on 2% w/v uranyl acetate for 90 seconds.</staining>
+            <specimenSupportDetails>Freshly carbon coated, glow discharged for 15 seconds.</specimenSupportDetails>
+            <specimenState>particle</specimenState>
+            <buffer>
+                <details>50mM Tris-HCl, 100mM KCl, 5mM MgCl2, 0.5% Igepal, 150mM imidazole</details>
+                <ph>8.0</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <algorithm>Maximum likelihood refinement</algorithm>
+            <software>XMIPP</software>
+            <ctfCorrection>Each plate</ctfCorrection>
+            <resolutionByAuthor>20</resolutionByAuthor>
+            <resolutionMethod>FSC 0.333</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <numProjections>7074</numProjections>
+            <appliedSymmetry>C1</appliedSymmetry>
+        </singleParticle>
+    </processing>
+</emdEntry>

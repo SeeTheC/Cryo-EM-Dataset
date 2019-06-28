@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="2111" version="1.9.6">
+    <admin>
+        <lastUpdate>2013-01-23</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2012-05-31</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2012-10-03</headerReleaseDate>
+        <mapReleaseDate>2013-01-23</mapReleaseDate>
+        <title>Negative structure of closed conformation of crm1</title>
+        <authors>Monecke T, Haselbach D, Neumann P, Thomson E, Hurt E, Stark H, Dickmanns A, Ficner R</authors>
+        <keywords>crm1, closed conformation</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Monecke T, Haselbach D, Voss B, Neumann P, Thomson E, Hurt E, Zachariae U, Stark H, Dickmanns A, Ficner R</authors>
+                <articleTitle>Structural basis for cooperativity of CRM1 export complex formation.</articleTitle>
+                <journal>PROC.NAT.ACAD.SCI.USA</journal>
+                <volume>110</volume>
+                <firstPage>960</firstPage>
+                <lastPage>965</lastPage>
+                <year>2013</year>
+                <externalReference type="pubmed">23277578</externalReference>
+                <externalReference type="doi">doi:10.1073/pnas.1215214110</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="617" type="map">emd_2111.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>54</numColumns>
+            <numRows>54</numRows>
+            <numSections>54</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>53</limitCol>
+            <limitRow>53</limitRow>
+            <limitSec>53</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>54</spacingCol>
+            <spacingRow>54</spacingRow>
+            <spacingSec>54</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">199.8</cellA>
+            <cellB units="A">199.8</cellB>
+            <cellC units="A">199.8</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.21286955</minimum>
+            <maximum>1.10374773</maximum>
+            <average>0.00379507</average>
+            <std>0.04504067</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-2111::::</details>
+        <pixelSpacing>
+            <pixelX units="A">3.7</pixelX>
+            <pixelY units="A">3.7</pixelY>
+            <pixelZ units="A">3.7</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="emdb">0.04</contourLevel>
+        <annotationDetails>Reconstruction of Chaetomium thermophilum crm1 in closed conformation</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>1</numComponents>
+        <name>crm1 closed conformation</name>
+        <compDegree>monomer</compDegree>
+        <molWtTheo units="MDa">0.12</molWtTheo>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>crm1</sciName>
+                <synName>exportin1 Xpo1</synName>
+                <molWtTheo units="MDa">0.12</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="209285">Chaetomium thermophilum</sciSpeciesName>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>monomer</oligomericDetails>
+                    <numCopies>1</numCopies>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <vector>pET24d</vector>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>NONE</cryogenName>
+            <instrument>NONE</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <illuminationMode>SPOT SCAN</illuminationMode>
+            <detector>GENERIC TVIPS (4k x 4k)</detector>
+            <temperature units="Kelvin">298</temperature>
+            <microscope>FEI/PHILIPS CM200FEG</microscope>
+            <date>21-MAR-2012</date>
+            <specimenHolderModel>SIDE ENTRY, EUCENTRIC</specimenHolderModel>
+            <acceleratingVoltage units="kV">160</acceleratingVoltage>
+            <nominalMagnification>155000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>300</numDigitalImages>
+        </imageAcquisition>
+        <fitting/>
+        <specimenPreparation>
+            <staining>Grids with adsorbed protein floated on 2% w/v uranyl formate for 60 seconds</staining>
+            <specimenSupportDetails>200 mesh copper grid with thin carbon support, freshly floated on protein solution</specimenSupportDetails>
+            <specimenState>particle</specimenState>
+            <buffer>
+                <details>150 mM NaCl, 20 mM HEPES/NaOH pH 7.5, 2 mM MgCl2, 4 mM DTT</details>
+                <ph>7.5</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <algorithm>Cross-common-lines</algorithm>
+            <software>imagic</software>
+            <ctfCorrection>each particle</ctfCorrection>
+            <resolutionByAuthor>18</resolutionByAuthor>
+            <resolutionMethod>FSC 0.5</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <numProjections>13000</numProjections>
+            <appliedSymmetry>C1</appliedSymmetry>
+        </singleParticle>
+    </processing>
+</emdEntry>

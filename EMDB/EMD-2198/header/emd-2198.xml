@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="2198" version="1.9.6">
+    <admin>
+        <lastUpdate>2013-09-04</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2012-09-12</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2012-09-19</headerReleaseDate>
+        <mapReleaseDate>2013-05-08</mapReleaseDate>
+        <title>Architecture of human translation initiation factor 3</title>
+        <authors>Querol-Audi J, Sun C, Mortimer S, Arias-Palomo E, Vogan J, Doudna J, Nogales E, Cate J</authors>
+        <keywords>translation initiation, eukaryotic initiation factor 3, ribosome, proteasome, PCI-MPN domains</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Sun C, Querol-Audi J, Mortimer SA, Arias-Palomo E, Doudna JA, Nogales E, Cate JH</authors>
+                <articleTitle>Two RNA-binding motifs in eIF3 direct HCV IRES-dependent translation.</articleTitle>
+                <journal>NUCLEIC ACIDS RES.</journal>
+                <volume>41</volume>
+                <firstPage>7512</firstPage>
+                <lastPage>7521</lastPage>
+                <year>2013</year>
+                <externalReference type="pubmed">23766293</externalReference>
+                <externalReference type="doi">doi:10.1093/nar/gkt510</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="1459" type="map">emd_2198.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>72</numColumns>
+            <numRows>72</numRows>
+            <numSections>72</numSections>
+        </dimensions>
+        <origin>
+            <originCol>-36</originCol>
+            <originRow>-36</originRow>
+            <originSec>-36</originSec>
+        </origin>
+        <limit>
+            <limitCol>35</limitCol>
+            <limitRow>35</limitRow>
+            <limitSec>35</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>72</spacingCol>
+            <spacingRow>72</spacingRow>
+            <spacingSec>72</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">336.24</cellA>
+            <cellB units="A">336.24</cellB>
+            <cellC units="A">336.24</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.08123378</minimum>
+            <maximum>0.13753276</maximum>
+            <average>0.00061908</average>
+            <std>0.00897769</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-2198::::</details>
+        <pixelSpacing>
+            <pixelX units="A">4.67</pixelX>
+            <pixelY units="A">4.67</pixelY>
+            <pixelZ units="A">4.67</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.022</contourLevel>
+        <annotationDetails>reconstruction using Maximum-likelihood</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>8</numComponents>
+        <name>PCI MPN core of the human eukaryotic translation initiation factor eIF3</name>
+        <compDegree>Subcomplex containing 8 core subunits</compDegree>
+        <molWtTheo units="MDa">0.4</molWtTheo>
+        <details>The sample was monodisperse</details>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>eIF3 a</sciName>
+                <details>truncated version, contains residues 5-654</details>
+                <protein>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="2">
+                <entry>protein</entry>
+                <sciName>eIF3 c</sciName>
+                <details>truncated version, contains residues 302-913</details>
+                <protein>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="3">
+                <entry>protein</entry>
+                <sciName>eIF3 e</sciName>
+                <protein>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="4">
+                <entry>protein</entry>
+                <sciName>eIF3 f</sciName>
+                <protein>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="5">
+                <entry>protein</entry>
+                <sciName>eIF3 h</sciName>
+                <protein>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="6">
+                <entry>protein</entry>
+                <sciName>eIF3 k</sciName>
+                <protein>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="7">
+                <entry>protein</entry>
+                <sciName>eIF3 l</sciName>
+                <protein>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="8">
+                <entry>protein</entry>
+                <sciName>eIF3 m</sciName>
+                <protein>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>ETHANE</cryogenName>
+            <humidity>100</humidity>
+            <instrument>FEI VITROBOT MARK II</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">20</electronDose>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">1400</nominalDefocusMin>
+            <nominalDefocusMax units="nm">3500</nominalDefocusMax>
+            <illuminationMode>SPOT SCAN</illuminationMode>
+            <microscope>FEI TECNAI F20</microscope>
+            <date>09-OCT-2011</date>
+            <specimenHolderModel>GATAN LIQUID NITROGEN</specimenHolderModel>
+            <acceleratingVoltage units="kV">120</acceleratingVoltage>
+            <nominalMagnification>100000</nominalMagnification>
+        </imaging>
+        <imageAcquisition/>
+        <fitting/>
+        <specimenPreparation>
+            <staining>vitrified</staining>
+            <specimenState>particle</specimenState>
+            <specimenConc units="mg/ml">0.2</specimenConc>
+            <specimenSupportDetails>C-flat plasma cleaned with Solarus</specimenSupportDetails>
+            <buffer>
+                <details>20mM Hepes, 75mM KCl, 0.5mM EDTA, 1mM DTT,
+ 2mM MgCl2, 3% trehalose</details>
+                <ph>7.4</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <algorithm>Maximum-likelihood</algorithm>
+            <software>ML3D</software>
+            <ctfCorrection>each image</ctfCorrection>
+            <resolutionByAuthor>20</resolutionByAuthor>
+        </reconstruction>
+        <singleParticle>
+            <numProjections>32227</numProjections>
+            <details>automatic particle selection with
+ template correlator</details>
+            <appliedSymmetry>C1</appliedSymmetry>
+        </singleParticle>
+    </processing>
+</emdEntry>

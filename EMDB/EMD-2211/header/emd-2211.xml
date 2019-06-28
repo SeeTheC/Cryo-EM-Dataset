@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="2211" version="1.9.6">
+    <admin>
+        <lastUpdate>2013-12-11</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2012-10-08</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2012-10-24</headerReleaseDate>
+        <mapReleaseDate>2012-12-05</mapReleaseDate>
+        <inFrameEMDBId>EMD-2209, EMD-2212, EMD-2213</inFrameEMDBId>
+        <title>Organization of the Influenza Virus Replication Machinery</title>
+        <authors>Moeller A, Kirchdoerfer RN, Potter CS, Carragher B, Wilson IA</authors>
+        <keywords>Influenza, RNP, Polymerase</keywords>
+        <fittedPDBEntryIdList>
+            <fittedPDBEntryId>2ymn</fittedPDBEntryId>
+        </fittedPDBEntryIdList>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Moeller A, Kirchdoerfer RN, Potter CS, Carragher B, Wilson IA</authors>
+                <articleTitle>Organization of the influenza virus replication machinery.</articleTitle>
+                <journal>SCIENCE</journal>
+                <volume>338</volume>
+                <firstPage>1631</firstPage>
+                <lastPage>1634</lastPage>
+                <year>2012</year>
+                <externalReference type="pubmed">23180774</externalReference>
+                <externalReference type="doi">doi:10.1126/science.1227270</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="695" type="map">emd_2211.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>59</numColumns>
+            <numRows>59</numRows>
+            <numSections>51</numSections>
+        </dimensions>
+        <origin>
+            <originCol>-27</originCol>
+            <originRow>-32</originRow>
+            <originSec>-27</originSec>
+        </origin>
+        <limit>
+            <limitCol>31</limitCol>
+            <limitRow>26</limitRow>
+            <limitSec>23</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>59</spacingCol>
+            <spacingRow>59</spacingRow>
+            <spacingSec>51</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">387.04</cellA>
+            <cellB units="A">387.04</cellB>
+            <cellC units="A">334.56</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.01890462</minimum>
+            <maximum>0.05272406</maximum>
+            <average>0.00099604</average>
+            <std>0.00398705</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-2211::::</details>
+        <pixelSpacing>
+            <pixelX units="A">6.56</pixelX>
+            <pixelY units="A">6.56</pixelY>
+            <pixelZ units="A">6.56</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.0065</contourLevel>
+        <annotationDetails>Reconstruction of the Loop-end of the Influenza Virus RNP</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet>
+            <figure>
+                <file>emd_2211.tif</file>
+            </figure>
+        </figureSet>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>2</numComponents>
+        <name>influenza virus ribonucleoprotein complex looped end</name>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>influenza virus ribonucleoprotein complex</sciName>
+                <synName>Influenza RNP</synName>
+                <details>Helical assembly of one strand of single stranded RNA bound to several nucleoproteins</details>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="211044">Influenza A virus (A/Puerto Rico/8/1934(H1N1))</sciSpeciesName>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="9606">Homo sapiens</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>ETHANE</cryogenName>
+            <humidity>85</humidity>
+            <instrument>FEI VITROBOT MARK II</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">15</electronDose>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>GENERIC CCD</detector>
+            <microscope>FEI TECNAI 20</microscope>
+            <date>27-AUG-2010</date>
+            <specimenHolderModel>GATAN LIQUID NITROGEN</specimenHolderModel>
+            <acceleratingVoltage units="kV">120</acceleratingVoltage>
+            <nominalMagnification>50000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>3437</numDigitalImages>
+        </imageAcquisition>
+        <fitting/>
+        <specimenPreparation>
+            <specimenState>particle</specimenState>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <software>XMIPP, IMAGIC, SPIDER, APPION, CTFFIND3</software>
+            <ctfCorrection>wholeimage</ctfCorrection>
+            <resolutionByAuthor>40.0</resolutionByAuthor>
+            <resolutionMethod>FSC 0.5</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <numProjections>5549</numProjections>
+            <appliedSymmetry>C1</appliedSymmetry>
+        </singleParticle>
+    </processing>
+</emdEntry>
