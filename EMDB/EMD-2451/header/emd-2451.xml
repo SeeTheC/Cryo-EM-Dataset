@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="2451" version="1.9.6">
+    <admin>
+        <lastUpdate>2016-02-17</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2013-09-07</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2013-09-18</headerReleaseDate>
+        <mapReleaseDate>2013-11-13</mapReleaseDate>
+        <title>Cryo-EM structure of the CSFV IRES in complex with eIF3, small ribosomal 40S subunit and DHX29</title>
+        <authors>Hashem Y, des-Georges A, Dhote V, Langlois R, Liao HY, Grassucci RA, Pestova TV, Hellen CUT, Frank J</authors>
+        <keywords>Internal Ribosomal Entry Site, 5'-end independent initiation, HCV-like IRES, eIF3/HCV-like IRES interaction</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Hashem Y, des Georges A, Dhote V, Langlois R, Liao HY, Grassucci RA, Pestova TV, Hellen CU, Frank J</authors>
+                <articleTitle>Hepatitis-C-virus-like internal ribosome entry sites displace eIF3 to gain access to the 40S subunit.</articleTitle>
+                <journal>NATURE</journal>
+                <volume>503</volume>
+                <firstPage>539</firstPage>
+                <lastPage>543</lastPage>
+                <year>2013</year>
+                <externalReference type="pubmed">24185006</externalReference>
+                <externalReference type="doi">doi:10.1038/nature12658</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="41595" type="map">emd_2451.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>220</numColumns>
+            <numRows>220</numRows>
+            <numSections>220</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>219</limitCol>
+            <limitRow>219</limitRow>
+            <limitSec>219</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>220</spacingCol>
+            <spacingRow>220</spacingRow>
+            <spacingSec>220</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">493.89996</cellA>
+            <cellB units="A">493.89996</cellB>
+            <cellC units="A">493.89996</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.04869587</minimum>
+            <maximum>0.14228088</maximum>
+            <average>0.00008203</average>
+            <std>0.01052825</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-2451::::</details>
+        <pixelSpacing>
+            <pixelX units="A">2.245</pixelX>
+            <pixelY units="A">2.245</pixelY>
+            <pixelZ units="A">2.245</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.0385</contourLevel>
+        <annotationDetails>Reconstruction of a mutant Classical Swine Fever Virus IRES bound to eukaryotic initiation factor 3, the Rabbit 40S subunit and DHX29.</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>4</numComponents>
+        <name>Reconstruction of a mutant Classical Swine Fever Virus IRES bound to eukaryotic initiation factor 3, the Rabbit 40S subunit and DHX29.</name>
+        <compDegree>one 40S, one CSFV IRES, one eIF3 and one DHX29</compDegree>
+        <molWtTheo units="MDa">2.6</molWtTheo>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>ribosome-eukaryote</entry>
+                <sciName>eukaryotic small ribosmal subunit</sciName>
+                <synName>40S subunit</synName>
+                <molWtTheo units="MDa">1.5</molWtTheo>
+                <ribosome-eukaryote>
+                    <eukaryote>SSU 40S, SSU RNA 18S</eukaryote>
+                    <sciSpeciesName ncbiTaxId="9986">Oryctolagus cuniculus</sciSpeciesName>
+                    <synSpeciesName>Rabbit</synSpeciesName>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource>
+                        <organOrTissue>blood</organOrTissue>
+                        <cell>reticulocytes</cell>
+                    </natSource>
+                    <engSource/>
+                </ribosome-eukaryote>
+            </sampleComponent>
+            <sampleComponent componentID="2">
+                <entry>nucleic-acid</entry>
+                <sciName>Internal Ribosomal Entry Site</sciName>
+                <synName>IRES</synName>
+                <molWtTheo units="MDa">0.1</molWtTheo>
+                <nucleic-acid>
+                    <sequence>GACUAGCCGUAGUGGCGAGCUCCCUGGGUGGUCUAAGUCCUGAGUACAGGACAGUCGUCAGUAGUUCGACGUGAGCACUAGCCCACCUCGAGAUGCUACGUGGACGAGGGCAUGCCCAAGACACACCUUAACCCUGGCGGGGGUCGCUAGGGUGAAAUCACAUUAUGUGAUGGGGGUACGACCUGAUAGGGUGCUGCAGAGGCCCACUAGCAGGCUAGUAUAAAAAUCUCUGC</sequence>
+                    <syntheticFlag>true</syntheticFlag>
+                    <sciSpeciesName ncbiTaxId="11096">Classical swine fever virus</sciSpeciesName>
+                    <structure>DOUBLE HELIX</structure>
+                    <synSpeciesName>CSFV</synSpeciesName>
+                    <class>RNA</class>
+                </nucleic-acid>
+            </sampleComponent>
+            <sampleComponent componentID="3">
+                <entry>protein</entry>
+                <sciName>DHX29</sciName>
+                <molWtTheo units="MDa">0.15</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <numCopies>1</numCopies>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="4">
+                <entry>protein</entry>
+                <sciName>eukaryotic initiation factor 3</sciName>
+                <synName>eIF3</synName>
+                <molWtTheo units="MDa">0.85</molWtTheo>
+                <protein>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <oligomericDetails>Monomer</oligomericDetails>
+                    <numCopies>1</numCopies>
+                    <sciSpeciesName ncbiTaxId="9986">Oryctolagus cuniculus</sciSpeciesName>
+                    <synSpeciesName>Rabbit</synSpeciesName>
+                    <externalReferences/>
+                    <natSource>
+                        <cell>Reticulocytes</cell>
+                        <organOrTissue>Blood</organOrTissue>
+                    </natSource>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <method>30 seconds waiting after sample deposition on the grid, blotting for seconds before plunging</method>
+            <cryogenName>ETHANE</cryogenName>
+            <humidity>100</humidity>
+            <instrument>FEI VITROBOT MARK II</instrument>
+            <temperature units="Kelvin">120</temperature>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">12</electronDose>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">-1000</nominalDefocusMin>
+            <nominalDefocusMax units="nm">-4000</nominalDefocusMax>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <specimenHolder>Gatan CT3500 side-entry cryo-holder</specimenHolder>
+            <detector>GATAN ULTRASCAN 4000 (4k x 4k)</detector>
+            <nominalCs units="mm">2.26</nominalCs>
+            <calibratedMagnification>51570</calibratedMagnification>
+            <temperature units="Kelvin">110</temperature>
+            <microscope>FEI TECNAI F20</microscope>
+            <date>01-FEB-2013</date>
+            <specimenHolderModel>OTHER</specimenHolderModel>
+            <acceleratingVoltage units="kV">120</acceleratingVoltage>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>12000</numDigitalImages>
+            <quantBitNumber>32</quantBitNumber>
+        </imageAcquisition>
+        <fitting/>
+        <specimenPreparation>
+            <specimenState>particle</specimenState>
+            <specimenConc units="mg/ml">0.105</specimenConc>
+            <specimenSupportDetails>300 mesh copper/molybdenum holey carbon-coated Quantifoil 2/4 grid (Quantifoil Micro Tools GmbH) containing an additional continuous thin layer of carbon</specimenSupportDetails>
+            <buffer>
+                <details>20 mM Tris , 75 mM KCl, 5 mM Mg, 2 mM DTT and 0.25 mM spermidine</details>
+                <ph>7.5</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <algorithm>template matching</algorithm>
+            <software>Spider, Relion</software>
+            <ctfCorrection>Each particle</ctfCorrection>
+            <resolutionByAuthor>9.3</resolutionByAuthor>
+            <resolutionMethod>FSC 0.143, gold-standard</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <appliedSymmetry>C1</appliedSymmetry>
+            <numProjections>26000</numProjections>
+            <details>The particles constituting this reconstruction were sorted using RELION.</details>
+        </singleParticle>
+    </processing>
+</emdEntry>

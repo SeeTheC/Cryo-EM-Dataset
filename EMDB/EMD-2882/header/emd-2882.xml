@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="2882" version="1.9.6">
+    <admin>
+        <lastUpdate>2016-02-17</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2015-02-08</depositionDate>
+        <depositionSite>PDBe</depositionSite>
+        <processingSite>PDBe</processingSite>
+        <headerReleaseDate>2015-04-01</headerReleaseDate>
+        <mapReleaseDate>2016-01-13</mapReleaseDate>
+        <title>Cryo-Molecular electron tomography of NTS-DBL1alphaCIDRgamma (N-terminal domain of PfEMP1-IT4Var60)</title>
+        <authors>Akhouri RR, Goel S, Furusho H, Skoglund U, Wahlgren M</authors>
+        <keywords>Malaria, Rosetting, PfEMP1</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Akhouri RR, Goel S, Furusho H, Skoglund U, Wahlgren M</authors>
+                <articleTitle>Architecture of Human IgM in Complex with P. falciparum Erythrocyte Membrane Protein 1.</articleTitle>
+                <journal>CELL REP.</journal>
+                <volume>14</volume>
+                <firstPage>723</firstPage>
+                <lastPage>736</lastPage>
+                <year>2016</year>
+                <externalReference type="pubmed">26776517</externalReference>
+                <externalReference type="doi">doi:10.1016/j.celrep.2015.12.067</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="63" type="map">emd_2882.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>25</numColumns>
+            <numRows>25</numRows>
+            <numSections>25</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>24</limitCol>
+            <limitRow>24</limitRow>
+            <limitSec>24</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>25</spacingCol>
+            <spacingRow>25</spacingRow>
+            <spacingSec>25</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">113.35</cellA>
+            <cellB units="A">113.35</cellB>
+            <cellC units="A">113.35</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>0.00030543</minimum>
+            <maximum>0.02196240</maximum>
+            <average>0.00531542</average>
+            <std>0.00403556</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-2882::::</details>
+        <pixelSpacing>
+            <pixelX units="A">4.534</pixelX>
+            <pixelY units="A">4.534</pixelY>
+            <pixelZ units="A">4.534</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.0123</contourLevel>
+        <annotationDetails>reconstruction of NTS-DBL1alphaCIDR1gamma Str1</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet>
+            <figure>
+                <file>emd_2882.tif</file>
+            </figure>
+        </figureSet>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>1</numComponents>
+        <name>NTS-DBL1alphaCIDR1gamma domain of PfEMP1-IT4Var60</name>
+        <compDegree>Monomer</compDegree>
+        <molWtTheo units="MDa">0.087</molWtTheo>
+        <details>the sample was monodisperse.</details>
+        <molWtExp units="MDa">0.0874</molWtExp>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>NTS-DBL1alphaCIDR1gamma</sciName>
+                <molWtTheo units="MDa">0.087</molWtTheo>
+                <molWtExp units="MDa">0.0874</molWtExp>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="5833">Plasmodium falciparum</sciSpeciesName>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>monomer</oligomericDetails>
+                    <synSpeciesName>Malaria Parasite</synSpeciesName>
+                    <numCopies>1</numCopies>
+                    <sciSpeciesStrain>FCR3S1.2</sciSpeciesStrain>
+                    <externalReferences/>
+                    <natSource>
+                        <cellLocation>Infected erythrocyte membrane</cellLocation>
+                    </natSource>
+                    <engSource>
+                        <vector>pJ414</vector>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                        <expSystemStrain>SHuffle T7</expSystemStrain>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <method>Blot for 4 seconds before plunging</method>
+            <cryogenName>ETHANE</cryogenName>
+            <humidity>100</humidity>
+            <instrument>FEI VITROBOT MARK IV</instrument>
+            <temperature units="Kelvin">78</temperature>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">40</electronDose>
+            <energyFilter>FEI</energyFilter>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">0.8</nominalDefocusMin>
+            <temperatureMin units="Kelvin">78</temperatureMin>
+            <nominalDefocusMax units="nm">1.5</nominalDefocusMax>
+            <illuminationMode>OTHER</illuminationMode>
+            <temperatureMax units="Kelvin">100</temperatureMax>
+            <specimenHolder>LN2 cooled</specimenHolder>
+            <detector>FEI FALCON II (4k x 4k)</detector>
+            <nominalCs units="mm">2.7</nominalCs>
+            <tiltAngleMin units="degrees">-70</tiltAngleMin>
+            <tiltAngleMax units="degrees">70</tiltAngleMax>
+            <microscope>FEI TITAN KRIOS</microscope>
+            <date>09-MAY-2014</date>
+            <specimenHolderModel>FEI TITAN KRIOS AUTOGRID HOLDER</specimenHolderModel>
+            <acceleratingVoltage units="kV">300</acceleratingVoltage>
+            <nominalMagnification>37000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>281</numDigitalImages>
+        </imageAcquisition>
+        <fitting/>
+        <specimenPreparation>
+            <specimenState>particle</specimenState>
+            <specimenConc units="mg/ml">2</specimenConc>
+            <specimenSupportDetails>C-Flat (Copper grid with thin Carbon support)</specimenSupportDetails>
+            <buffer>
+                <details>20mM Hepes, 200mM NaCl</details>
+                <ph>7.5</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>tomography</method>
+        <reconstruction>
+            <software>COMET</software>
+            <ctfCorrection>each frame</ctfCorrection>
+            <resolutionByAuthor>20</resolutionByAuthor>
+        </reconstruction>
+        <tomography>
+            <appliedSymmetry>C1</appliedSymmetry>
+            <tiltAngleIncrement>0.5</tiltAngleIncrement>
+            <numSections>281</numSections>
+            <details>CTF correction and alignment using gold particles</details>
+        </tomography>
+    </processing>
+</emdEntry>
