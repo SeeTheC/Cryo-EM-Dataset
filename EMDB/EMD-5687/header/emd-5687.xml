@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="5687" version="1.9.6">
+    <admin>
+        <lastUpdate>2013-08-21</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2013-06-03</depositionDate>
+        <depositionSite>RCSB</depositionSite>
+        <processingSite>RCSB</processingSite>
+        <headerReleaseDate>2013-08-21</headerReleaseDate>
+        <mapReleaseDate>2013-08-21</mapReleaseDate>
+        <title>Molecular structure of the native influenza hemagglutinin H3 on virions</title>
+        <authors>Harris AK, Meyerson JR, Matsuoka Y, Kuybeda O, Moran A, Bliss D, Das SR, Yewdell JW, Sapiro G, Subbarao K, Subramaniam S</authors>
+        <keywords>hemagglutinin, cryoelectron microscopy, influenza vaccine, epitope</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Harris AK, Meyerson JR, Matsuoka Y, Kuybeda O, Moran A, Bliss D, Das SR, Yewdell JW, Sapiro G, Subbarao K, Subramaniam S</authors>
+                <articleTitle>Structure and accessibility of HA trimers on intact 2009 H1N1 pandemic influenza virus to stem region-specific neutralizing antibodies.</articleTitle>
+                <journal>PROC.NAT.ACAD.SCI.USA</journal>
+                <volume>110</volume>
+                <firstPage>4592</firstPage>
+                <lastPage>4597</lastPage>
+                <year>2013</year>
+                <externalReference type="pubmed">23460696</externalReference>
+                <externalReference type="doi">doi:10.1073/pnas.1214913110</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="1088" type="map">emd_5687.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>53</numColumns>
+            <numRows>53</numRows>
+            <numSections>99</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>52</limitCol>
+            <limitRow>52</limitRow>
+            <limitSec>98</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>53</spacingCol>
+            <spacingRow>53</spacingRow>
+            <spacingSec>99</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">217.29999</cellA>
+            <cellB units="A">217.29999</cellB>
+            <cellC units="A">405.9</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-626.91870117</minimum>
+            <maximum>1139.60241699</maximum>
+            <average>0.31539929</average>
+            <std>124.96157074</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-5687::::</details>
+        <pixelSpacing>
+            <pixelX units="A">4.1</pixelX>
+            <pixelY units="A">4.1</pixelY>
+            <pixelZ units="A">4.1</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">200</contourLevel>
+        <annotationDetails>Reconstruction of H3 hemagglutinin from H3N2 filamentous virions</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>2</numComponents>
+        <name>H3 hemagglutinin H3N2 virions [strain X-31 (A/Aichi/2/68)]</name>
+        <compDegree>trimer</compDegree>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>influenza envelope glycoprotein hemagglutinin (HA)</sciName>
+                <synName>influenza surface spike</synName>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="387139">Influenza A virus (A/Aichi/2/1968(H3N2))</sciSpeciesName>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>ETHANE</cryogenName>
+            <instrument>FEI VITROBOT MARK IV</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">100</electronDose>
+            <energyFilter>Gatan</energyFilter>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">2500</nominalDefocusMin>
+            <nominalDefocusMax units="nm">2500</nominalDefocusMax>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>GENERIC CCD</detector>
+            <tiltAngleMin units="degrees">-60</tiltAngleMin>
+            <tiltAngleMax units="degrees">60</tiltAngleMax>
+            <microscope>FEI POLARA 300</microscope>
+            <date>06-SEP-2010</date>
+            <specimenHolderModel>GATAN LIQUID NITROGEN</specimenHolderModel>
+            <acceleratingVoltage units="kV">200</acceleratingVoltage>
+            <nominalMagnification>34000</nominalMagnification>
+            <energyWindow units="eV">0-20</energyWindow>
+        </imaging>
+        <imageAcquisition/>
+        <fitting>
+            <refProtocol>rigid body</refProtocol>
+            <refSpace>REAL</refSpace>
+            <pdbEntryIdList>
+                <pdbEntryId>3SDY</pdbEntryId>
+            </pdbEntryIdList>
+        </fitting>
+        <specimenPreparation>
+            <specimenState>particle</specimenState>
+            <specimenSupportDetails>Quantifoil Multi-A, 200 mesh</specimenSupportDetails>
+            <buffer>
+                <details>PBS buffer</details>
+                <ph>7.4</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>subtomogramAveraging</method>
+        <reconstruction>
+            <software>IMOD</software>
+        </reconstruction>
+        <subtomogramAveraging>
+            <numSubtomograms>1000</numSubtomograms>
+            <appliedSymmetry>C3</appliedSymmetry>
+            <details>Average number of tilts used in the 3D reconstructions: 61. Average tomographic tilt angle increment: 2.</details>
+        </subtomogramAveraging>
+    </processing>
+</emdEntry>

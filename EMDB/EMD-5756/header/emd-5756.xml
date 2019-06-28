@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="5756" version="1.9.6">
+    <admin>
+        <lastUpdate>2016-02-17</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2013-09-25</depositionDate>
+        <depositionSite>RCSB</depositionSite>
+        <processingSite>RCSB</processingSite>
+        <headerReleaseDate>2013-10-30</headerReleaseDate>
+        <mapReleaseDate>2013-11-13</mapReleaseDate>
+        <title>3D EM Reconstruction of the AKAP18-PKA Complex in a Linear Conformation</title>
+        <authors>Smith FD, Reichow SL, Esseltine JL, Shi D, Langeberg LK, Scott JD, Gonen T</authors>
+        <keywords>A-Kinase Anchoring Protein, AKAP, AKAP18, A-Kinase, PKA, cAMP-Dependent Kinase, Kinase, RII, PKA Regulatory Subunit II, Phosphorylation, Anchoring, Intrinsic Disorder</keywords>
+        <fittedPDBEntryIdList>
+            <fittedPDBEntryId>3j4r</fittedPDBEntryId>
+        </fittedPDBEntryIdList>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Smith FD, Reichow SL, Esseltine JL, Shi D, Langeberg LK, Scott JD, Gonen T</authors>
+                <articleTitle>Intrinsic disorder within an AKAP-protein kinase A complex guides local substrate phosphorylation.</articleTitle>
+                <journal>eLife</journal>
+                <volume>2</volume>
+                <firstPage>e01319</firstPage>
+                <lastPage>e01319</lastPage>
+                <year>2013</year>
+                <externalReference type="pubmed">24192038</externalReference>
+                <externalReference type="doi">doi:10.7554/eLife.01319</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="6751" type="map">emd_5756.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>120</numColumns>
+            <numRows>120</numRows>
+            <numSections>120</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>119</limitCol>
+            <limitRow>119</limitRow>
+            <limitSec>119</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>120</spacingCol>
+            <spacingRow>120</spacingRow>
+            <spacingSec>120</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">503.99997</cellA>
+            <cellB units="A">503.99997</cellB>
+            <cellC units="A">503.99997</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-4.07958841</minimum>
+            <maximum>13.73394680</maximum>
+            <average>0E-8</average>
+            <std>1.00000000</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-5756::::</details>
+        <pixelSpacing>
+            <pixelX units="A">4.2</pixelX>
+            <pixelY units="A">4.2</pixelY>
+            <pixelZ units="A">4.2</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">4.50</contourLevel>
+        <annotationDetails>Reconstruction of AKAP18-PKA in a Linear Conformation</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet>
+            <figure>
+                <file>emd_5756.png</file>
+            </figure>
+        </figureSet>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>3</numComponents>
+        <name>AKAP18-PKA Complex in Linear Conformation</name>
+        <compDegree>Hetero-pentamer composed of one AKAP18 bound to a dimer of the PKA Regulatory Subunit II and two copies of the PKA Catalytic Subunit</compDegree>
+        <molWtTheo units="MDa">0.220</molWtTheo>
+        <molWtMethod>Native PAGE</molWtMethod>
+        <molWtExp units="MDa">0.240</molWtExp>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>A-Kinase Anchoring Protein 18</sciName>
+                <synName>AKAP18</synName>
+                <molWtTheo units="MDa">0.04</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <numCopies>1</numCopies>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>monomer</oligomericDetails>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <vector>Bacmid</vector>
+                        <expSystemStrain>Sf-9</expSystemStrain>
+                        <expSystem ncbiTaxId="7108">Spodoptera frugiperda</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="2">
+                <entry>protein</entry>
+                <sciName>A-Protein Kinase Catalytic Subunit</sciName>
+                <synName>PKA C subunit</synName>
+                <molWtTheo units="MDa">0.040</molWtTheo>
+                <protein>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <sciSpeciesName ncbiTaxId="10090">Mus musculus</sciSpeciesName>
+                    <oligomericDetails>monomer</oligomericDetails>
+                    <numCopies>2</numCopies>
+                    <synSpeciesName>Mouse</synSpeciesName>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystemStrain>BL21(DE3)pLysS</expSystemStrain>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                        <vector>pET15a</vector>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="3">
+                <entry>protein</entry>
+                <sciName>A-Protein Kinase Regulatory Subunit II alpha</sciName>
+                <synName>PKA RIIalpha Subunit</synName>
+                <molWtTheo units="MDa">0.045</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="10090">Mus musculus</sciSpeciesName>
+                    <numCopies>2</numCopies>
+                    <synSpeciesName>Mouse</synSpeciesName>
+                    <oligomericDetails>dimer</oligomericDetails>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <vector>pET28b</vector>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                        <expSystemStrain>BL21(DE3)pLysS</expSystemStrain>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>NONE</cryogenName>
+            <instrument>NONE</instrument>
+        </vitrification>
+        <imaging>
+            <astigmatism>Objective lens astigmatism was corrected at 100,000 times magnification</astigmatism>
+            <electronSource>LAB6</electronSource>
+            <electronDose units="e/A**2">15</electronDose>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">1000</nominalDefocusMin>
+            <nominalDefocusMax units="nm">2500</nominalDefocusMax>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>GENERIC GATAN</detector>
+            <nominalCs units="mm">6.3</nominalCs>
+            <tiltAngleMin units="degrees">0</tiltAngleMin>
+            <tiltAngleMax units="degrees">50</tiltAngleMax>
+            <temperature units="Kelvin">298</temperature>
+            <microscope>FEI TECNAI 12</microscope>
+            <date>01-MAY-2012</date>
+            <specimenHolderModel>OTHER</specimenHolderModel>
+            <acceleratingVoltage units="kV">120</acceleratingVoltage>
+            <nominalMagnification>52000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>1335</numDigitalImages>
+        </imageAcquisition>
+        <fitting>
+            <details>This domain was linked to the AKAP18 central domain (PDB 2VFL) using COOT and they were fit together into the EM density.</details>
+            <refProtocol>rigid body</refProtocol>
+            <refSpace>REAL</refSpace>
+            <targetCriteria>cross-correlation</targetCriteria>
+            <software>Chimera</software>
+            <pdbEntryIdList>
+                <pdbEntryId>2IZX</pdbEntryId>
+                <pdbChainId>A</pdbChainId>
+                <pdbChainId>B</pdbChainId>
+            </pdbEntryIdList>
+        </fitting>
+        <fitting>
+            <refSpace>REAL</refSpace>
+            <targetCriteria>cross-correlation</targetCriteria>
+            <refProtocol>rigid body</refProtocol>
+            <details>This domain was linked to the AKAP RII Binding Domain (PDB 2IZX) using COOT and they were fit together into the EM density.</details>
+            <software>Chimera</software>
+            <pdbEntryIdList>
+                <pdbEntryId>2VFL</pdbEntryId>
+                <pdbChainId>A</pdbChainId>
+            </pdbEntryIdList>
+        </fitting>
+        <fitting>
+            <details>This domain was linked to the PKA RIIalpha D/D domain (PDB 2IZX) using COOT and they were fit together into the EM density.</details>
+            <software>Chimera</software>
+            <refProtocol>rigid body</refProtocol>
+            <targetCriteria>cross-correlation</targetCriteria>
+            <refSpace>REAL</refSpace>
+            <pdbEntryIdList>
+                <pdbEntryId>2QVS</pdbEntryId>
+                <pdbChainId>A</pdbChainId>
+                <pdbChainId>B</pdbChainId>
+            </pdbEntryIdList>
+        </fitting>
+        <specimenPreparation>
+            <staining>0.75% (w/v) uranyl formate</staining>
+            <specimenState>particle</specimenState>
+            <specimenConc units="mg/ml">0.01</specimenConc>
+            <specimenSupportDetails>200 mesh copper grid with thin carbon support</specimenSupportDetails>
+            <buffer>
+                <details>25 mM HEPES, 200 mM NaCl, 0.5 mM EDTA, 1 mM dithiothreitol.</details>
+                <ph>7.4</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <software>IMAGIC, FREALIGN</software>
+            <ctfCorrection>Each Micrograph</ctfCorrection>
+            <resolutionByAuthor>35</resolutionByAuthor>
+            <resolutionMethod>FSC 0.5</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <appliedSymmetry>C1</appliedSymmetry>
+            <numProjections>1000</numProjections>
+            <details>Images were processed in IMAGIC and ISAC. 3D reconstruction was done in IMAGIC and FREALIGN.</details>
+        </singleParticle>
+    </processing>
+</emdEntry>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="5760" version="1.9.6">
+    <admin>
+        <lastUpdate>2013-12-11</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2013-09-27</depositionDate>
+        <depositionSite>RCSB</depositionSite>
+        <processingSite>RCSB</processingSite>
+        <headerReleaseDate>2013-10-23</headerReleaseDate>
+        <mapReleaseDate>2013-12-11</mapReleaseDate>
+        <title>Hepatitis C Virus E2 Envelope Glycoprotein Core Structure</title>
+        <authors>Nieusma T, Kong L, Giang E, Kadam RU, Cogburn KE, Hua Y, Dai X, Stanfield RL, Burton DR, Wilson IA, Law M, Ward AB</authors>
+        <keywords>hepatitis C, virus, envelope, glycoprotein</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Kong L, Giang E, Nieusma T, Kadam RU, Cogburn KE, Hua Y, Dai X, Stanfield RL, Burton DR, Ward AB, Wilson IA, Law M</authors>
+                <articleTitle>Hepatitis C virus E2 envelope glycoprotein core structure.</articleTitle>
+                <journal>SCIENCE</journal>
+                <volume>342</volume>
+                <firstPage>1090</firstPage>
+                <lastPage>1094</lastPage>
+                <year>2013</year>
+                <externalReference type="pubmed">24288331</externalReference>
+                <externalReference type="doi">doi:10.1126/science.1243876</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="3457" type="map">emd_5760.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>96</numColumns>
+            <numRows>96</numRows>
+            <numSections>96</numSections>
+        </dimensions>
+        <origin>
+            <originCol>-23</originCol>
+            <originRow>-23</originRow>
+            <originSec>-23</originSec>
+        </origin>
+        <limit>
+            <limitCol>72</limitCol>
+            <limitRow>72</limitRow>
+            <limitSec>72</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>96</spacingCol>
+            <spacingRow>96</spacingRow>
+            <spacingSec>96</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">196.79999</cellA>
+            <cellB units="A">196.79999</cellB>
+            <cellC units="A">196.79999</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-5.24226284</minimum>
+            <maximum>10.52967072</maximum>
+            <average>0.00000713</average>
+            <std>0.80545229</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-5760::::</details>
+        <pixelSpacing>
+            <pixelX units="A">2.05</pixelX>
+            <pixelY units="A">2.05</pixelY>
+            <pixelZ units="A">2.05</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">1.84</contourLevel>
+        <annotationDetails>E2 glycoprotein bound to AR3A Fab and AR2A Fab, single particle reconstruction</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>3</numComponents>
+        <name>E2 glycoprotein bound to AR3A Fab and AR2A Fab</name>
+        <molWtTheo units="MDa">0.146</molWtTheo>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>E2 envelope glycoprotein</sciName>
+                <synName>E2</synName>
+                <molWtTheo units="MDa">0.046</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="11103">Hepatitis C virus</sciSpeciesName>
+                    <numCopies>1</numCopies>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>monomer</oligomericDetails>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <vector>pCMV-Tag4A-tpa</vector>
+                        <expSystem ncbiTaxId="9606">Homo sapiens</expSystem>
+                        <expSystemCell>HEK 293T</expSystemCell>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="2">
+                <entry>protein</entry>
+                <sciName>Antigen-binding fragment of antibody AR3A</sciName>
+                <molWtTheo units="MDa">0.050</molWtTheo>
+                <protein>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <oligomericDetails>monomer</oligomericDetails>
+                    <numCopies>1</numCopies>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <expSystemStrain>BL21(DE3)</expSystemStrain>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                        <vector>pComb3H</vector>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="3">
+                <entry>protein</entry>
+                <sciName>Antigen-binding fragment of antibody AR2A</sciName>
+                <molWtTheo units="MDa">0.050</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="9606">Homo sapiens</sciSpeciesName>
+                    <numCopies>1</numCopies>
+                    <synSpeciesName>Human</synSpeciesName>
+                    <oligomericDetails>monomer</oligomericDetails>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource>
+                        <vector>pComb3H</vector>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                        <expSystemStrain>BL21(DE3)</expSystemStrain>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>NONE</cryogenName>
+            <instrument>NONE</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>LAB6</electronSource>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">1000</nominalDefocusMin>
+            <nominalDefocusMax units="nm">1000</nominalDefocusMax>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>TVIPS TEMCAM-F416 (4k x 4k)</detector>
+            <tiltAngleMin units="degrees">0</tiltAngleMin>
+            <tiltAngleMax units="degrees">55</tiltAngleMax>
+            <temperature units="Kelvin">298</temperature>
+            <microscope>FEI TECNAI SPIRIT</microscope>
+            <date>12-JUN-2013</date>
+            <specimenHolderModel>SIDE ENTRY, EUCENTRIC</specimenHolderModel>
+            <acceleratingVoltage units="kV">120</acceleratingVoltage>
+            <nominalMagnification>52000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>452</numDigitalImages>
+        </imageAcquisition>
+        <fitting/>
+        <specimenPreparation>
+            <staining>negative stain with uranyl formate</staining>
+            <specimenState>particle</specimenState>
+            <specimenSupportDetails>400 mesh copper</specimenSupportDetails>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <algorithm>Initiated with common lines</algorithm>
+            <software>Appion, Spider, Xmipp, Eman1, Eman2</software>
+            <resolutionByAuthor>20</resolutionByAuthor>
+            <resolutionMethod>FSC 0.5</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <appliedSymmetry>C1</appliedSymmetry>
+            <numProjections>27050</numProjections>
+            <details>Particles were selected using automatic (difference-of-Gaussians) picking followed by reference-free classification to eliminate noisy picks or non-target aggregation states.</details>
+        </singleParticle>
+    </processing>
+</emdEntry>

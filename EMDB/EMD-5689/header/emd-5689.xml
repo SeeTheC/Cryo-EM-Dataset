@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="5689" version="1.9.6">
+    <admin>
+        <lastUpdate>2013-09-18</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2013-06-10</depositionDate>
+        <depositionSite>RCSB</depositionSite>
+        <processingSite>RCSB</processingSite>
+        <headerReleaseDate>2013-07-03</headerReleaseDate>
+        <mapReleaseDate>2013-08-07</mapReleaseDate>
+        <title>Cryo-electron microscopy of T7 tail complex</title>
+        <authors>Cuervo A, Pulido-Cid M, Chagoyen M, Arranz R, Gonzalez-Garcia VA, Garcia-Doval C, Caston JR, Valpuesta JM, van Raaij MJ, Martin-Benito J, Carrascosa JL</authors>
+        <keywords>Bacteriophage, DNA ejection, tail complex, connector, gatekeeper</keywords>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Cuervo A, Pulido-Cid M, Chagoyen M, Arranz R, Gonzalez-Garcia VA, Garcia-Doval C, Caston JR, Valpuesta JM, van Raaij MJ, Martin-Benito J, Carrascosa JL</authors>
+                <articleTitle>Structural characterization of the bacteriophage T7 tail machinery.</articleTitle>
+                <journal>J.BIOL.CHEM.</journal>
+                <volume>288</volume>
+                <firstPage>26290</firstPage>
+                <lastPage>26299</lastPage>
+                <year>2013</year>
+                <externalReference type="pubmed">23884409</externalReference>
+                <externalReference type="doi">doi:10.1074/jbc.M113.491209</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="16001" type="map">emd_5689.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>160</numColumns>
+            <numRows>160</numRows>
+            <numSections>160</numSections>
+        </dimensions>
+        <origin>
+            <originCol>0</originCol>
+            <originRow>0</originRow>
+            <originSec>0</originSec>
+        </origin>
+        <limit>
+            <limitCol>159</limitCol>
+            <limitRow>159</limitRow>
+            <limitSec>159</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>160</spacingCol>
+            <spacingRow>160</spacingRow>
+            <spacingSec>160</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">448.0</cellA>
+            <cellB units="A">448.0</cellB>
+            <cellC units="A">448.0</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.03142736</minimum>
+            <maximum>0.03302918</maximum>
+            <average>0.00011322</average>
+            <std>0.00363817</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-5689::::</details>
+        <pixelSpacing>
+            <pixelX units="A">2.8</pixelX>
+            <pixelY units="A">2.8</pixelY>
+            <pixelZ units="A">2.8</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.00744</contourLevel>
+        <annotationDetails>Reconstruction of T7 tail complex</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet/>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>4</numComponents>
+        <name>T7 tail complex formed by proteins gp8, gp11, gp12, and gp17</name>
+        <compDegree>gp8 (12mer), gp11 (12mer), gp12 (6mer), gp17 (6mer of 3mers)</compDegree>
+        <molWtTheo units="MDa">2.7</molWtTheo>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>gp8</sciName>
+                <synName>Connector</synName>
+                <molWtTheo units="MDa">0.059</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="10760">Enterobacteria phage T7</sciSpeciesName>
+                    <synSpeciesName>T7 Bacteriophage</synSpeciesName>
+                    <numCopies>12</numCopies>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <oligomericDetails>12mer</oligomericDetails>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="2">
+                <entry>protein</entry>
+                <sciName>gp17</sciName>
+                <synName>Fibre</synName>
+                <molWtTheo units="MDa">0.060</molWtTheo>
+                <protein>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <sciSpeciesName ncbiTaxId="10760">Enterobacteria phage T7</sciSpeciesName>
+                    <oligomericDetails>3mer</oligomericDetails>
+                    <numCopies>18</numCopies>
+                    <synSpeciesName>T7 Bacteriophage</synSpeciesName>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="3">
+                <entry>protein</entry>
+                <sciName>gp11</sciName>
+                <synName>gatekeeper</synName>
+                <molWtTheo units="MDa">0.025</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="10760">Enterobacteria phage T7</sciSpeciesName>
+                    <numCopies>12</numCopies>
+                    <synSpeciesName>T7 bacteriophage</synSpeciesName>
+                    <oligomericDetails>12mer</oligomericDetails>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="4">
+                <entry>protein</entry>
+                <sciName>gp12</sciName>
+                <molWtTheo units="MDa">0.090</molWtTheo>
+                <protein>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <oligomericDetails>6mer</oligomericDetails>
+                    <numCopies>6</numCopies>
+                    <sciSpeciesName ncbiTaxId="10760">Enterobacteria phage T7</sciSpeciesName>
+                    <synSpeciesName>T7 bacteriophage</synSpeciesName>
+                    <externalReferences/>
+                    <natSource/>
+                    <engSource/>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <method>Samples were applied to grids for 1 minute, blotted, and plunged into liquid ethane.</method>
+            <cryogenName>ETHANE</cryogenName>
+            <instrument>LEICA EM CPC</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">10</electronDose>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">1500</nominalDefocusMin>
+            <temperatureMin units="Kelvin">91</temperatureMin>
+            <nominalDefocusMax units="nm">3500</nominalDefocusMax>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <temperatureMax units="Kelvin">113</temperatureMax>
+            <detector>KODAK SO-163 FILM</detector>
+            <nominalCs units="mm">2.26</nominalCs>
+            <calibratedMagnification>50000</calibratedMagnification>
+            <microscope>FEI TECNAI F20</microscope>
+            <date>01-FEB-2009</date>
+            <specimenHolderModel>GATAN LIQUID NITROGEN</specimenHolderModel>
+            <acceleratingVoltage units="kV">200</acceleratingVoltage>
+            <nominalMagnification>50000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <scanner>ZEISS SCAI</scanner>
+            <numDigitalImages>22</numDigitalImages>
+            <samplingSize units="microns">7</samplingSize>
+            <quantBitNumber>8</quantBitNumber>
+        </imageAcquisition>
+        <fitting/>
+        <specimenPreparation>
+            <specimenState>particle</specimenState>
+            <specimenConc units="mg/ml">0.1</specimenConc>
+            <specimenSupportDetails>R2/2 Quantifoil coated with a thin carbon layer</specimenSupportDetails>
+            <buffer>
+                <details>50mM Tris-HCl, 10mM MgCl2, 100 mM NaCl</details>
+                <ph>7.8</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <algorithm>Cross-common lines</algorithm>
+            <software>XMIPP, SPIDER, EMAN</software>
+            <ctfCorrection>each micrograph</ctfCorrection>
+            <details>The resolution is 20 Angstrom with FSC at 0.5 cut-off.</details>
+            <resolutionByAuthor>16</resolutionByAuthor>
+            <resolutionMethod>FSC 0.333</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <appliedSymmetry>C6</appliedSymmetry>
+            <numProjections>3056</numProjections>
+        </singleParticle>
+    </processing>
+</emdEntry>

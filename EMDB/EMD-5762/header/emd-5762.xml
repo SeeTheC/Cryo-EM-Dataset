@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdEntry accessCode="5762" version="1.9.6">
+    <admin>
+        <lastUpdate>2014-03-19</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2013-10-02</depositionDate>
+        <depositionSite>RCSB</depositionSite>
+        <processingSite>RCSB</processingSite>
+        <headerReleaseDate>2013-10-23</headerReleaseDate>
+        <mapReleaseDate>2014-02-19</mapReleaseDate>
+        <title>Electron cryo-microscopy of four-stranded TubZ from B. thuringiensis</title>
+        <authors>Montabana EA, Agard DA</authors>
+        <keywords>plasmid segregation, tubulin family, bacterial cytoskeleton</keywords>
+        <fittedPDBEntryIdList>
+            <fittedPDBEntryId>3j4s</fittedPDBEntryId>
+        </fittedPDBEntryIdList>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Montabana EA, Agard DA</authors>
+                <articleTitle>Bacterial tubulin TubZ-Bt transitions between a two-stranded intermediate and a four-stranded filament upon GTP hydrolysis.</articleTitle>
+                <journal>PROC.NAT.ACAD.SCI.USA</journal>
+                <volume>111</volume>
+                <firstPage>3407</firstPage>
+                <lastPage>3412</lastPage>
+                <year>2014</year>
+                <externalReference type="pubmed">24550513</externalReference>
+                <externalReference type="doi">doi:10.1073/pnas.1318339111</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="65537" type="map">emd_5762.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numColumns>256</numColumns>
+            <numRows>256</numRows>
+            <numSections>256</numSections>
+        </dimensions>
+        <origin>
+            <originCol>-128</originCol>
+            <originRow>-128</originRow>
+            <originSec>-128</originSec>
+        </origin>
+        <limit>
+            <limitCol>127</limitCol>
+            <limitRow>127</limitRow>
+            <limitSec>127</limitSec>
+        </limit>
+        <spacing>
+            <spacingCol>256</spacingCol>
+            <spacingRow>256</spacingRow>
+            <spacingSec>256</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">240.64</cellA>
+            <cellB units="A">240.64</cellB>
+            <cellC units="A">240.64</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.08206827</minimum>
+            <maximum>0.09640588</maximum>
+            <average>0.00018542</average>
+            <std>0.00950797</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details>::::EMDATABANK.org::::EMD-5762::::</details>
+        <pixelSpacing>
+            <pixelX units="A">0.94</pixelX>
+            <pixelY units="A">0.94</pixelY>
+            <pixelZ units="A">0.94</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.0155</contourLevel>
+        <annotationDetails>Reconstruction of four-stranded TubZ filament grown in the presence of GTP</annotationDetails>
+    </map>
+    <supplement>
+        <maskSet/>
+        <sliceSet/>
+        <figureSet>
+            <figure>
+                <file>emd_5762.jpg</file>
+            </figure>
+        </figureSet>
+        <fscSet/>
+    </supplement>
+    <sample>
+        <numComponents>1</numComponents>
+        <name>Untagged full length TubZ from pBtoxis in Bacillus thuringiensis</name>
+        <compDegree>Helical filament with four protofilament strands</compDegree>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>ftsZ/tubulin-related protein</sciName>
+                <synName>TubZ-Bt, TubZ</synName>
+                <molWtExp units="MDa">0.0543729</molWtExp>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="1428">Bacillus thuringiensis</sciSpeciesName>
+                    <recombinantExpFlag>true</recombinantExpFlag>
+                    <oligomericDetails>helical four-stranded filament</oligomericDetails>
+                    <sciSpeciesStrain>serovar israelensis</sciSpeciesStrain>
+                    <externalReferences>
+                        <refInterpro>IPR003008</refInterpro>
+                        <refUniProt>Q8KNP3</refUniProt>
+                    </externalReferences>
+                    <natSource/>
+                    <engSource>
+                        <expSystem ncbiTaxId="562">Escherichia coli</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <method>Blot 4.5 seconds before plunging.</method>
+            <cryogenName>ETHANE</cryogenName>
+            <timeResolvedState>GTP added to TubZ protein and incubated ~6 minutes before placing on grid.</timeResolvedState>
+            <humidity>100</humidity>
+            <instrument>FEI VITROBOT MARK III</instrument>
+        </vitrification>
+        <imaging>
+            <astigmatism>Astigmatism corrected at 250,000 times magnification</astigmatism>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">20</electronDose>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <nominalDefocusMin units="nm">800</nominalDefocusMin>
+            <nominalDefocusMax units="nm">3500</nominalDefocusMax>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>TVIPS TEMCAM-F816 (8k x 8k)</detector>
+            <nominalCs units="mm">2.2</nominalCs>
+            <microscope>FEI TECNAI F20</microscope>
+            <date>22-APR-2011</date>
+            <specimenHolderModel>OTHER</specimenHolderModel>
+            <acceleratingVoltage units="kV">200</acceleratingVoltage>
+            <nominalMagnification>80000</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <numDigitalImages>414</numDigitalImages>
+        </imageAcquisition>
+        <fitting>
+            <software>Chimera</software>
+            <refProtocol>flexible</refProtocol>
+            <refSpace>REAL</refSpace>
+            <pdbEntryIdList>
+                <pdbEntryId>2XKB</pdbEntryId>
+                <pdbChainId>C</pdbChainId>
+            </pdbEntryIdList>
+        </fitting>
+        <specimenPreparation>
+            <helicalParameters>
+                <deltaZ units="A">43.54512</deltaZ>
+                <deltaPhi units="degrees">31.78843</deltaPhi>
+                <hand>RIGHT HANDED</hand>
+            </helicalParameters>
+            <specimenState>filament</specimenState>
+            <specimenSupportDetails>400 mesh copper grid with holey carbon support, glow discharged</specimenSupportDetails>
+            <buffer>
+                <ph>7.7</ph>
+                <details>100 mM potassium acetate, 5 mM magnesium acetate, 50 mM HEPES</details>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>helical</method>
+        <reconstruction>
+            <algorithm>Iterative helical real space reconstruction</algorithm>
+            <software>Spider</software>
+            <ctfCorrection>Whole micrograph</ctfCorrection>
+            <details>Final Map has been low-pass filtered to 7 Angstrom and high-pass filtered to 30 Angstrom. A B-factor of -309 Angstrom was applied using the program bfactor. A cylindrical mask of radius ~80 Angstrom has been applied.</details>
+            <resolutionByAuthor>6.9</resolutionByAuthor>
+            <resolutionMethod>FSC 0.143</resolutionMethod>
+        </reconstruction>
+        <helical>
+            <details>The particles were aligned using IHRSR.</details>
+        </helical>
+    </processing>
+</emdEntry>
